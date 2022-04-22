@@ -12,9 +12,13 @@ function printName() {
     console.log("Arta");
 }
 printName();
-/*--------------------- Arguments -----------------------*/
+/*--------------------- Argument Types -----------------------*/
 function multiply(val1, val2) {
     return val1 * val2;
 }
 const result = multiply(2, 3);
 console.log(result);
+const add = (val1, val2) => {
+    return val1 + val2;
+};
+console.log(add);
